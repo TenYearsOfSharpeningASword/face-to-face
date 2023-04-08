@@ -1,15 +1,10 @@
-// 该文件为整个项目的入口
+import Vue from 'vue'
+import App from './App.vue'
+import router from './router'
 
+Vue.config.productionTip = false
 
-//引入vue
-import Vue from 'vue';
-import ElementUI from 'element-ui';
-import 'element-ui/lib/theme-chalk/index.css';
-import App from './App.vue';
-
-Vue.use(ElementUI);
-//创建vue对象
 new Vue({
-  el: '#app',
+  router,
   render: h => h(App)
-})
+}).$mount('#app')
