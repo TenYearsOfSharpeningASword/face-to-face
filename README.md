@@ -1,6 +1,8 @@
 # ftf
 
-> Just an open source project for transmission
+> 全称 face to face
+> 基于socket技术
+> 跨平台协助工作
 
 ## Build Setup
 
